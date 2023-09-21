@@ -34,7 +34,10 @@ python3 GStreamerDetect.py
 
 3. Run script with optional arguments
 
-python3 GStreamerDetect.py --model <model.tflite> --frameWidth <width> --frameHeight <height>
+python3 GStreamerDetect.py \
+--model <model.tflite> \
+--frameWidth <width> \
+--frameHeight <height>
 
 V. Results:
 
