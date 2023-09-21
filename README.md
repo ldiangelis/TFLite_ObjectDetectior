@@ -34,16 +34,16 @@ python3 GStreamerDetect.py
 
 3. Run script with optional arguments
 
-python3 GStreamerDetect.py \
---model <model.tflite> \
---frameWidth <width> \
+python3 GStreamerDetect.py \ </br>
+--model <model.tflite> \ </br>
+--frameWidth <width> \ </br>
 --frameHeight <height>
 
 V. Results:
 
-640x480: ~11.8 FPS
-480x360: ~12.3 FPS
-Full Screen: ~8.1 FPS
+640x480: ~11.8 FPS </br>
+480x360: ~12.3 FPS </br>
+Full Screen: ~8.1 FPS </br>
 X11 Forwarding from RPi: ~11.3 FPS
 
 The results demonstrate > 300% increase in FPS from the reference project (Khanhlvg(1), 2023) by implementing the 64-bit OS, upgrading 
